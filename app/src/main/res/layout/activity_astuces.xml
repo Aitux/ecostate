@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="163dp"
+        android:layout_height="143dp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="335dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="163dp"
+        android:layout_height="143dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="335dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="163dp"
+        android:layout_height="143dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="183dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="163dp"
+        android:layout_height="143dp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="183dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="82dp"
+        android:layout_height="52dp"
+        app:srcCompat="@android:drawable/btn_dialog"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="76dp"
+        android:layout_height="34dp"
+        android:text="Compte"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="76dp"
+        android:layout_height="34dp"
+        android:text="Stats"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="76dp"
+        android:layout_height="34dp"
+        android:text="News"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="86dp"
+        android:layout_height="34dp"
+        android:text="Astuces"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Les astuces"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="41dp" />
 
 </android.support.constraint.ConstraintLayout>
