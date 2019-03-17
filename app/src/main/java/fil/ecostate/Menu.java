@@ -14,6 +14,7 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
+
         Button quiz = findViewById(R.id.button28);
         Button compte = findViewById(R.id.button36);
         Button astuces = findViewById(R.id.button33);

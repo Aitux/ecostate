@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,9 +9,12 @@
         android:id="@+id/imageButton23"
         android:layout_width="71dp"
         android:layout_height="50dp"
-        app:srcCompat="@android:drawable/btn_dialog"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="675dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/btn_dialog" />
 
     <Button
         android:id="@+id/button33"
@@ -20,8 +22,12 @@
         android:layout_height="34dp"
         android:text="Astuces"
         android:textSize="8sp"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="691dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button34"
@@ -29,8 +35,12 @@
         android:layout_height="34dp"
         android:text="Stats"
         android:textSize="8sp"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="691dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button35"
@@ -38,8 +48,12 @@
         android:layout_height="34dp"
         android:text="News"
         android:textSize="8sp"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="691dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button36"
@@ -47,8 +61,12 @@
         android:layout_height="34dp"
         android:text="Compte"
         android:textSize="8sp"
-        tools:layout_editor_absoluteX="330dp"
-        tools:layout_editor_absoluteY="691dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView11"
@@ -57,16 +75,24 @@
         android:text="Eco State"
         android:textSize="36sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="89dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
 
     <Button
         android:id="@+id/button28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Accéder au quizz du jour"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
 
     <TextView
         android:id="@+id/textView17"
@@ -77,8 +103,12 @@
         android:textColor="@color/Ecostate_green"
         android:textSize="18sp"
         android:typeface="normal"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
 
     <TextView
         android:id="@+id/textView20"
@@ -89,7 +119,10 @@
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="18sp"
         android:typeface="normal"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="328dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
 
 </android.support.constraint.ConstraintLayout>
