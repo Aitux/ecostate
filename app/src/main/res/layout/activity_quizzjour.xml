@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
 
     <RadioGroup
         android:layout_width="245dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="542dp">
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:layout_marginBottom="61dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <RadioButton
             android:id="@+id/radioButton5"
@@ -26,7 +32,7 @@
             android:text="eau" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButton21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="température"
@@ -34,7 +40,7 @@
             tools:layout_editor_absoluteY="246dp" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButton10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="minéraux"
@@ -46,8 +52,11 @@
     <RadioGroup
         android:layout_width="69dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="265dp">
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="265dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
             android:id="@+id/radioButton2"
@@ -71,8 +80,11 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="111dp">
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="111dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
             android:id="@+id/radioButton2"
