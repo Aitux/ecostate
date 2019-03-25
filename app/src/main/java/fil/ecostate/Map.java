@@ -13,7 +13,7 @@ public class Map extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
-
+        getSupportActionBar().hide();
 
         Button compte = findViewById(R.id.button27);
         Button astuces = findViewById(R.id.button24);

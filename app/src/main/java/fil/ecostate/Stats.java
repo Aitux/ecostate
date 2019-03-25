@@ -13,6 +13,7 @@ public class Stats extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stats);
+        getSupportActionBar().hide();
 
         Button compte = findViewById(R.id.button20);
         Button astuces = findViewById(R.id.button16);

@@ -13,6 +13,7 @@ public class Astuces extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_astuces);
+        getSupportActionBar().hide();
 
         Button compte = findViewById(R.id.button);
         Button astuces = findViewById(R.id.button10);
