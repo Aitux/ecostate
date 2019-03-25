@@ -17,9 +17,8 @@ public class QuizzJour extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
-        setContentView(R.layout.activity_compte);
-
+        setContentView(R.layout.activity_quizzjour);
+        getSupportActionBar().hide();
 
         Button validerQuizz = findViewById(R.id.button22);
         RadioButton b1_1 = findViewById(R.id.radioButton11);
@@ -89,10 +88,8 @@ public class QuizzJour extends AppCompatActivity {
     private final class OkOnClickListener implements
             DialogInterface.OnClickListener {
         public void onClick(DialogInterface dialog, int which) {}
-=======
-        setContentView(R.layout.activity_quizzjour);
-        getSupportActionBar().hide();
->>>>>>> 9277470cab01944a360d94c6c1b80c3d744cc520
+
+
     }
 }
 
