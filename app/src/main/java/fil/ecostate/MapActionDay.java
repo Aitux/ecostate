@@ -13,6 +13,7 @@ public class MapActionDay extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapactionday);
+        getSupportActionBar().hide();
 
         Button compte = findViewById(R.id.button15);
         Button astuces = findViewById(R.id.button12);

@@ -13,7 +13,7 @@ public class Compte extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compte);
-
+        getSupportActionBar().hide();
 
         Button compte = findViewById(R.id.button8);
         Button astuces = findViewById(R.id.button4);
