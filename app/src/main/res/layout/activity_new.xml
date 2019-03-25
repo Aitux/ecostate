@@ -6,70 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/imageButton20"
-        android:layout_width="82dp"
-        android:layout_height="67dp"
-        android:background="@drawable/earth"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="86dp"
-        android:layout_height="34dp"
-        android:text="Astuces"
-        android:textSize="8sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.233"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/button21"
-        android:layout_width="76dp"
-        android:layout_height="34dp"
-        android:text="Stats"
-        android:textSize="8sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.773"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/button22"
-        android:layout_width="76dp"
-        android:layout_height="34dp"
-        android:text="News"
-        android:textSize="8sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/button23"
-        android:layout_width="76dp"
-        android:layout_height="34dp"
-        android:text="Compte"
-        android:textSize="8sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
@@ -92,4 +28,70 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="254dp"
+        android:layout_height="85dp"
+        android:text="Naufrage du Grande America : plus de 1.000 tonnes de matières dangereuses dans l'océan
+"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="254dp"
+        android:layout_height="107dp"
+        android:text="Zéro pesticide : 110 nouvelles collectivités sont labellisées 'Terre Saine'. Cette reconnaissance valorise leur démarche pour supprimer les pesticides dans la gestion de leurs espaces verts."
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="94dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/usine"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="256dp"
+        android:layout_height="60dp"
+        android:text="10% de réduction dès 40€ d'achat chez Mademoizelle bio grâce au code promo PROMO10"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="254dp"
+        android:layout_height="85dp"
+        android:text="Usine de la Mède : Total est en passe de recevoir sa 1ère livraison d'huile de palme d'huile de palme brute. Importée d'Indonésie, elle est livrée le 22 mars pour alimenter sa bio-raffinerie."
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="94dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/navire"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="94dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/promo"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="94dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/nature"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="306dp" />
+
 </android.support.constraint.ConstraintLayout>
