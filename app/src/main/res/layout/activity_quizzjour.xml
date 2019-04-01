@@ -18,23 +18,27 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/radioButton41"
+            android:checked="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="champignons" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/radioButton42"
+            android:checked="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="eau" />
 
         <RadioButton
+
             android:id="@+id/radioButton21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="température"
             tools:layout_editor_absoluteX="39dp"
             tools:layout_editor_absoluteY="246dp" />
@@ -42,6 +46,7 @@
         <RadioButton
             android:id="@+id/radioButton10"
             android:layout_width="wrap_content"
+            android:checked="false"
             android:layout_height="wrap_content"
             android:text="minéraux"
             tools:layout_editor_absoluteX="39dp"
@@ -68,10 +73,11 @@
             tools:layout_editor_absoluteY="246dp" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButton22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Faux"
+            android:checked="false"
             tools:layout_editor_absoluteX="39dp"
             tools:layout_editor_absoluteY="214dp" />
 
@@ -90,6 +96,7 @@
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="Écosystème"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +107,7 @@
             tools:layout_editor_absoluteY="246dp" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButton12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
@@ -114,11 +121,12 @@
             tools:layout_editor_absoluteY="214dp" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioButton13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Écologie"
             app:layout_constraintBottom_toBottomOf="parent"
+            android:checked="false"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -200,6 +208,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="environnement"
+            android:checked="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -213,6 +222,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="communauté écologique"
+            android:checked="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
