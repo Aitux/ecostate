@@ -20,7 +20,7 @@ public class QuizzJour extends AppCompatActivity {
         setContentView(R.layout.activity_quizzjour);
         getSupportActionBar().hide();
 
-        Button validerQuizz = findViewById(R.id.button22);
+        Button validerQuizz = findViewById(R.id.button00);
         RadioButton b1_1 = findViewById(R.id.radioButton11);
         RadioButton b1_2 = findViewById(R.id.radioButton12);
         RadioButton b1_3 = findViewById(R.id.radioButton13);
@@ -40,10 +40,10 @@ public class QuizzJour extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //ajouter le nb de bonnes réponses
-                compteur = compteReponses(View);
+                compteur = compteReponses(v);
                 showDialog(DIALOG_ALERT);
 
-                Intent goMap = new Intent(Map.this, Map.class);
+                Intent goMap = new Intent(QuizzJour.this, Map.class);
                 startActivity(goMap);
                 finish();
             }

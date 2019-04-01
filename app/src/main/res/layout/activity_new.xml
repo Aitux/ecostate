@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,6 +19,7 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <SearchView
+        android:id="@+id/searchView"
         android:layout_width="362dp"
         android:layout_height="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,65 +33,119 @@
         android:id="@+id/textView3"
         android:layout_width="254dp"
         android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
         android:text="Naufrage du Grande America : plus de 1.000 tonnes de matières dangereuses dans l'océan
 "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="254dp"
         android:layout_height="107dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="8dp"
         android:text="Zéro pesticide : 110 nouvelles collectivités sont labellisées 'Terre Saine'. Cette reconnaissance valorise leur démarche pour supprimer les pesticides dans la gestion de leurs espaces verts."
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="306dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="94dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/usine"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="114dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/textView26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:srcCompat="@drawable/usine" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="256dp"
         android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="70dp"
         android:text="10% de réduction dès 40€ d'achat chez Mademoizelle bio grâce au code promo PROMO10"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="437dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="254dp"
         android:layout_height="85dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="8dp"
         android:text="Usine de la Mède : Total est en passe de recevoir sa 1ère livraison d'huile de palme d'huile de palme brute. Importée d'Indonésie, elle est livrée le 22 mars pour alimenter sa bio-raffinerie."
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="114dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="94dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/navire"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:srcCompat="@drawable/navire" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="94dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/promo"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="430dp" />
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:srcCompat="@drawable/promo" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="94dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/nature"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="306dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nature" />
 
 </android.support.constraint.ConstraintLayout>

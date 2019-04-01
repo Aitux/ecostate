@@ -217,7 +217,7 @@
             tools:layout_editor_absoluteY="246dp" />
 
         <RadioButton
-            android:id="@+id/radioButton32"
+            android:id="@+id/radioButton31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="communauté écologique"
