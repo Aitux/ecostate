@@ -13,6 +13,7 @@ public class New extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new);
+        getSupportActionBar().hide();
 
         Button compte = findViewById(R.id.button23);
         Button astuces = findViewById(R.id.button17);

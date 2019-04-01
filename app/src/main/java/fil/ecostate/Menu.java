@@ -13,6 +13,8 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        getSupportActionBar().hide();
+
 
         Button quiz = findViewById(R.id.button28);
         Button compte = findViewById(R.id.button36);

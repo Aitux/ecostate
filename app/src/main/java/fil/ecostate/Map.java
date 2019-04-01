@@ -13,16 +13,16 @@ public class Map extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
-
+        getSupportActionBar().hide();
 
         Button compte = findViewById(R.id.button27);
         Button astuces = findViewById(R.id.button24);
         Button stats = findViewById(R.id.button25);
         Button news = findViewById(R.id.button26);
-        ImageButton map = findViewById(R.id.imageButton21);
+        ImageButton map = findViewById(R.id.imageButton15);
 
         ImageButton mapAction = findViewById(R.id.imageButton14);
-        ImageButton mapDefis = findViewById(R.id.imageButton15);
+        ImageButton mapDefis = findViewById(R.id.imageButton21);
 
         compte.setOnClickListener(new View.OnClickListener() {
             @Override
