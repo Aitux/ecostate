@@ -15,6 +15,7 @@ public class New extends AppCompatActivity {
         setContentView(R.layout.activity_new);
         getSupportActionBar().hide();
 
+        /*
         Button compte = findViewById(R.id.button23);
         Button astuces = findViewById(R.id.button17);
         Button stats = findViewById(R.id.button21);
@@ -57,5 +58,6 @@ public class New extends AppCompatActivity {
                 startActivity(goStats);
             }
         });
+        */
     }
 }

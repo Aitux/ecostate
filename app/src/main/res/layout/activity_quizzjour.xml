@@ -218,7 +218,10 @@
             tools:layout_editor_absoluteY="246dp" />
 
         <RadioButton
+
+
             android:id="@+id/radioButton11"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="communauté écologique"
@@ -246,7 +249,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/button00"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Valider mes réponses"

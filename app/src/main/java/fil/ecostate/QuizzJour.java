@@ -19,9 +19,7 @@ public class QuizzJour extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quizzjour);
         getSupportActionBar().hide();
-
-
-        Button validerQuizz = findViewById(R.id.button22);
+        Button validerQuizz = findViewById(R.id.button00);
         RadioButton b1_1 = findViewById(R.id.radioButton11);
         RadioButton b1_2 = findViewById(R.id.radioButton12);
         RadioButton b1_3 = findViewById(R.id.radioButton13);
