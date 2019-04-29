@@ -23,7 +23,7 @@
         android:id="@+id/imageButton19"
         android:layout_width="82dp"
         android:layout_height="67dp"
-        app:background="@drawable/earth"
+        android:background="@drawable/earth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
