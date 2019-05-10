@@ -15,7 +15,9 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
+import com.google.maps.android.heatmaps.HeatmapTileProvider;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,6 +31,8 @@ import java.util.Scanner;
 public class Map extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    private HeatmapTileProvider mProvider;
+    private TileOverlay mOverlay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -115,10 +119,10 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
         mMap.addMarker(new MarkerOptions().position(sydney).title("vous etes ici"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
         //CameraUpdateFactory.newLatLngZoom(sydney, 12.0f);
-        mMap.animateCamera( CameraUpdateFactory.zoomTo( 12.0f ) );
+        //mMap.animateCamera( CameraUpdateFactory.zoomTo( 12.0f ) );
 
     }
-    /*
+
     private void addHeatMap() {
         List<LatLng> list = null;
 
@@ -130,13 +134,15 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
         }
 
         // Create a heat map tile provider, passing it the latlngs of the police stations.
+
         mProvider = new HeatmapTileProvider.Builder()
                 .data(list)
                 .build();
         // Add a tile overlay to the map, using the heat map tile provider.
         mOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
+
     }
-    */
+
 
     private ArrayList<LatLng> readItems(int resource) throws JSONException {
         ArrayList<LatLng> list = new ArrayList<LatLng>();
