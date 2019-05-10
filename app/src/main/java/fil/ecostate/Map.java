@@ -31,8 +31,8 @@ import java.util.Scanner;
 public class Map extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private HeatmapTileProvider mProvider;
-    private TileOverlay mOverlay;
+   // private HeatmapTileProvider mProvider;
+   // private TileOverlay mOverlay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -115,15 +115,20 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney, Australia, and move the camera.
-        LatLng sydney = new LatLng(50.640560, 3.075010);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("vous etes ici"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng lille = new LatLng(50.640560, 3.075010);
+        mMap.addMarker(new MarkerOptions().position(lille).title("vous etes ici"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(lille));
+        addHeatMap();
         //CameraUpdateFactory.newLatLngZoom(sydney, 12.0f);
-        //mMap.animateCamera( CameraUpdateFactory.zoomTo( 12.0f ) );
+        mMap.animateCamera( CameraUpdateFactory.zoomTo( 2.0f ) );
 
     }
 
     private void addHeatMap() {
+
+        HeatmapTileProvider mProvider;
+        //TileOverlay mOverlay;
+
         List<LatLng> list = null;
 
         // Get the data: latitude/longitude positions of police stations.
@@ -139,9 +144,11 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
                 .data(list)
                 .build();
         // Add a tile overlay to the map, using the heat map tile provider.
-        mOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
+       // mOverlay =
+        mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
 
     }
+
 
 
     private ArrayList<LatLng> readItems(int resource) throws JSONException {
