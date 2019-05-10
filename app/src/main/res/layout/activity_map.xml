@@ -5,24 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
-        android:name="com.google.android.gms.maps.MapFragment"
-        android:id="@+id/map"
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        map:cameraBearing="112.5"
-        map:cameraTargetLat="37.4220041"
-        map:cameraTargetLng="-122.0862515"
-        map:cameraTilt="30"
-        map:cameraZoom="13"
-        map:mapType="normal"
-        map:uiCompass="false"
-        map:uiRotateGestures="true"
-        map:uiScrollGestures="false"
-        map:uiTiltGestures="true"
-        map:uiZoomControls="false"
-        map:uiZoomGestures="true"
-        tools:ignore="MissingPrefix"/>
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+
     <ImageButton
         android:id="@+id/imageButton21"
         android:layout_width="71dp"
@@ -34,6 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.045" />
+
 
     <Button
         android:id="@+id/button24"
