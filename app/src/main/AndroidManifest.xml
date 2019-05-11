@@ -29,6 +29,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".SimpleCard">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Astuces">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />

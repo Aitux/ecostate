@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +7,7 @@
 
     <ImageButton
         android:id="@+id/imageButton16"
-        android:layout_width="82dp"
+        android:layout_width="67dp"
         android:layout_height="67dp"
         android:background="@drawable/earth"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -89,7 +88,7 @@
         android:layout_height="44dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="jean.dupont@mail.fr"
+        android:text="gabriel.doe@mail.fr"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.943"
@@ -138,7 +137,7 @@
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="date"
-        android:text="12/11/1996"
+        android:text="12/11/1993"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.839"
@@ -176,7 +175,7 @@
         android:id="@+id/textView16"
         android:layout_width="212dp"
         android:layout_height="22dp"
-        android:text="Jean Dupont"
+        android:text="Gabriel Doe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.839"
@@ -195,16 +194,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.733" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginRight="229dp"
+        android:layout_marginBottom="500dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dummy"
+        tools:srcCompat="@drawable/dummy" />
 
 </android.support.constraint.ConstraintLayout>

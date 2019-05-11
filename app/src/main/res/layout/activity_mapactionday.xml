@@ -8,7 +8,7 @@
 
     <ImageButton
         android:id="@+id/imageButton18"
-        android:layout_width="82dp"
+        android:layout_width="67dp"
         android:layout_height="67dp"
         android:background="@drawable/earth"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,8 +85,8 @@
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Utiliser du shampoing sec"
+        android:layout_height="31dp"
+        android:text="Utiliser du shampoing solide"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.202"

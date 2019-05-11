@@ -40,7 +40,7 @@ public class Menu extends AppCompatActivity {
         astuces.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goAstuces = new Intent(Menu.this, Astuces.class);
+                Intent goAstuces = new Intent(Menu.this, SimpleCard.class);
                 startActivity(goAstuces);
             }
         });
